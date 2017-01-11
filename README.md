@@ -3,6 +3,8 @@ openldap-ppolicy-cracklib
 
 This is a password policy module for OpenLDAP that uses CrackLib.
 
+It also includes additional checks inspired by the `VeryFascistCheck` function in Python's cracklib wrapper.
+
 Usage
 =====
 
