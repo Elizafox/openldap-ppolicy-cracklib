@@ -25,7 +25,7 @@ gcc ppolicy-cracklib.c -o ppolicy-cracklib.so \
 -I${OPENLDAP_SOURCE}/include \
 -I${OPENLDAP_SOURCE}/libraries \
 -I${OPENLDAP_SOURCE}/libraries/libldap \
--I${OPENLDAP_SOURCE}/servers/slapd````
+-I${OPENLDAP_SOURCE}/servers/slapd```
 
 On Debian, it may be easier to fetch the source package and run `debuild -b`
 first (you can ctrl-c the test phase); you will have to add
